@@ -36,6 +36,14 @@ public class HomeWork1 {
      */
     public static class Student {
         // Напиши здесь свою реализацию класса Student
+        private String name;
+        private int grade;
+        Student(){
+        age = 16;
+        name = "Саня";
+        System.out.println("Student default constructor");
+        }   
+            
     }
 
     public static class Teacher {
